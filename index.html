@@ -13,8 +13,8 @@
   <title>Grizzee.io - Where they are belong</title>
 </head>
 
-<body>
-  <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+<body id="home" data-spy="scroll" data-target="#main-nav">
+  <nav class="navbar navbar-expand-md navbar-light fixed-top py-4" id="main-nav">
     <div class="container">
       <a href="#home" class="navbar-brand">
         <img src="img/bear.png" width="60" height="55" alt="">
@@ -32,7 +32,7 @@
             <a href="#about" class="nav-link">About</a>
           </li>
           <li class="nav-item">
-            <a href="#developer" class="nav-link">Developer</a>
+            <a href="#animals" class="nav-link">Animals</a>
           </li>
           <li class="nav-item">
             <a href="#contact" class="nav-link">Contact</a>
@@ -64,6 +64,329 @@
     </div>
   </section>
 
+  <!-- Newletter -->
+  <section id="newsletter" class="bg-dark text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <input type="text" class="form-control form-control-lg mb-resp" placeholder="Enter name">
+        </div>
+        <div class="col-md-4">
+          <input type="email" class="form-control form-control-lg mb-resp" placeholder="Enter email">
+        </div>
+        <div class="col-md-4">
+          <button class="btn btn-success btn-lg btn-block">
+            <i class="fas fa-envelope-open-o"></i> Subscribe
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Boxes-->
+  <section id="boxes" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card text-center border-dark mb-resp">
+            <div class="card-body">
+              <h3 class="text-dark">Be better</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, soluta?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center bg-dark border-white text-white mb-resp">
+            <div class="card-body">
+              <h3 class="text-light">Be smarter</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, soluta?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center border-dark mb-resp">
+            <div class="card-body">
+              <h3 class="text-dark">Be faster</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, soluta?</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center bg-dark border-white text-white">
+            <div class="card-body">
+              <h3 class="text-light">Be stronger</h3>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, soluta?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-5 text-center ">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="info-header mb-5">
+            <h1 class="text-dark pb-3">
+              Hello?
+            </h1>
+            <p class="lead pb-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ullam eveniet, magni consequuntur ipsa perspiciatis!
+            </p>
+          </div>
+
+          <!-- Accordion-->
+          <div id="accordion">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <div href="#collapse1" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i> Get Involved
+                  </div>
+                </h5>
+              </div>
+
+              <div id="collapse1" class="collapse show">
+                <div class="card-body">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam placeat pariatur aspernatur culpa quibusdam quia similique sint, reprehenderit dolore incidunt ex quasi nam obcaecati unde eos omnis nisi odit praesentium magni nobis maiores voluptas? Ratione assumenda, quae, iusto magni neque exercitationem voluptate, beatae maxime ipsa quo pariatur corrupti quas? Aut!
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <div href="#collapse2" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i> Gain Knowledge
+                  </div>
+                </h5>
+              </div>
+
+              <div id="collapse2" class="collapse">
+                <div class="card-body">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam placeat pariatur aspernatur culpa quibusdam quia similique sint, reprehenderit dolore incidunt ex quasi nam obcaecati unde eos omnis nisi odit praesentium magni nobis maiores voluptas? Ratione assumenda, quae, iusto magni neque exercitationem voluptate, beatae maxime ipsa quo pariatur corrupti quas? Aut!
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <h5 class="mb-0">
+                  <div href="#collapse3" data-toggle="collapse" data-parent="#accordion">
+                    <i class="fas fa-arrow-circle-down"></i> Open Minded
+                  </div>
+                </h5>
+              </div>
+
+              <div id="collapse3" class="collapse">
+                <div class="card-body">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam placeat pariatur aspernatur culpa quibusdam quia similique sint, reprehenderit dolore incidunt ex quasi nam obcaecati unde eos omnis nisi odit praesentium magni nobis maiores voluptas? Ratione assumenda, quae, iusto magni neque exercitationem voluptate, beatae maxime ipsa quo pariatur corrupti quas? Aut!
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Animals -->
+  <section id="animals" class="my-5 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="info-header mb-5">
+            <h1 class="text-dark pb-3">
+              Meet the lovely
+            </h1>
+            <p class="lead">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id nihil commodi fugit, quasi aperiam perferendis!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/panda.jpg" alt="" class="img-fluid rounded-circle mb-3">
+              <h3>Food Panda</h3>
+              <h5 class="text-muted">Black and white</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, non.</p>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="http://facebook.com">
+                  <i class="fas fa-rocket"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="http://twitter.com">
+                  <i class="fas fa-fire"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="http://facebook.com">
+                  <i class="fas fa-laptop"></i>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/raccoon.jpg" alt="" class="img-fluid rounded-circle  mb-3">
+              <h3>Food Panda</h3>
+              <h5 class="text-muted">Black and white</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, non.</p>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="http://facebook.com">
+                  <i class="fas fa-rocket"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="http://twitter.com">
+                  <i class="fas fa-fire"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="http://facebook.com">
+                  <i class="fas fa-laptop"></i>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/cats.jpg" alt="" class="img-fluid rounded-circle mb-3">
+              <h3>Food Panda</h3>
+              <h5 class="text-muted">Black and white</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, non.</p>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="http://facebook.com">
+                  <i class="fas fa-rocket"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="http://twitter.com">
+                  <i class="fas fa-fire"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="http://facebook.com">
+                  <i class="fas fa-laptop"></i>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <img src="img/cat.jpg" alt="" class="img-fluid rounded-circle mb-3">
+              <h3>Food Panda</h3>
+              <h5 class="text-muted">Black and white</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, non.</p>
+              <div class="d-flex justify-content-center">
+                <div class="p-4">
+                  <a href="http://facebook.com">
+                  <i class="fas fa-rocket"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="http://twitter.com">
+                  <i class="fas fa-fire"></i>
+                  </a>
+                </div>
+                <div class="p-4">
+                  <a href="http://facebook.com">
+                  <i class="fas fa-laptop"></i>
+                  </a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <h3>Get In Touch</h3>
+          <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, temporibus!</p>
+          <form>
+            <div class="input-group input-group-lg mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="fas fa-user"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control" placeholder="Name">
+            </div>
+
+            <div class="input-group input-group-lg mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="fas fa-envelope"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control" placeholder="Email">
+            </div>
+
+            <div class="input-group input-group-lg mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text">
+                  <i class="fas fa-pencil-alt"></i>
+                </span>
+              </div>
+              <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+            </div>
+
+            <input type="submit" value="Submit" class="btn btn-success btn-block btn-lg">
+          </form>
+        </div>
+
+        <div class="col-lg-3 align-self-center">
+          <img src="img/bear.png" alt="" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="main-footer" class="py-5 bg-dark text-white">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col text-center py-6">
+          <p>&copy;<span id="year"></span> Grizzie.io Teamdev, All right reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
@@ -72,10 +395,29 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
 
-  <script>
-    // Get the current year for the copyright
-    $('#year').text(new Date().getFullYear());
-  </script>
+    <script>
+      // Get the current year for the copyright
+      $('#year').text(new Date().getFullYear());
+  
+      // Init Scrollspy
+      $('body').scrollspy({ target: '#main-nav' });
+  
+      // Smooth Scrolling
+      $("#main-nav a").on('click', function (event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+  
+          const hash = this.hash;
+  
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function () {
+  
+            window.location.hash = hash;
+          });
+        }
+      });
+    </script>
 </body>
 
 </html>
